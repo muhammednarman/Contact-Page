@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  height: 100vh;
+  background: url(handsome-man-pointing-left-smiling.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+section {
+  padding: 40px 30px;
+}
+
+.iletisim {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  grid-gap: 6rem;
+}
+
+.sayfasi form {
+  position: relative;
+}
+
+.sayfasi form input,
+form textarea {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.sayfasi textarea {
+  height: 220px;
+}
+
+.sayfasi .buton {
+  background: blue;
+  color: #ffffff;
+}
+.sayfasi .buton:hover {
+  background: #000;
+  color: #ffffff;
+}
+span {
+  color: blue;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #000;
+  font-size: 20px;
+}
